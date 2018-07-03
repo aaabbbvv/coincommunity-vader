@@ -1,0 +1,6 @@
+[program:flow]
+command =/root/.virtualenvs/crypto_vader_env/bin/celery -A core flower
+directory = /var/www/cryptomarket-backend-project/cryptomarket_backend
+autostart = true
+autorestart = true
+
